@@ -1,0 +1,50 @@
+.company-logo{
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.company-logo-header{
+    color: #000000;
+}
+
+body{
+    font-family: Roboto;
+}
+
+.nav-list-link{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.contact-list-link{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.contact-list-link:hover,.nav-list-link:hover{
+    color: #2196F3;
+}
+
+.hero{
+    background-color: #2F303A
+}
+
+.hero-title{
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    text-align: center;
+}
