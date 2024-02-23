@@ -24,12 +24,20 @@ body{
     color: #212121;
 }
 
+.nav-list{
+    list-style: none;
+}
+
 .contact-list-link{
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #757575;
+}
+
+.contact-list{
+    list-style: none;
 }
 
 .contact-list-link:hover,.nav-list-link:hover{
@@ -46,5 +54,157 @@ body{
     line-height: 60px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    text-align: center;
+}
+
+.hero-btn{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border: none;
+}
+
+.features-list-title{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.features-list{
+    list-style: none;
+}
+
+.features-list-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.work{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.work-list{
+    list-style: none;
+}
+
+.team{
+    background-color: #F5F4FA;
+}
+
+.team-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;   
+}
+
+.team-list-item{
+    background-color: #FFFFFF;
+    list-style: none;
+}
+
+.team-list- title{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-list-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.footer{
+    background-color: #2F303A;
+}
+
+.company-logo-footer{
+    color: white;
+}
+
+.address-list{
+    list-style: none;
+    font-style: normal;
+}
+
+.address-list-link{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;  
+}
+
+.address-list-link-mail{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF99;
+}
+
+.address-list-link-tel{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF99;    
+}
+
+.div-list-btn{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;    
+    color: #212121;
+    background-color: #F5F4FA;
+    border: none;
+}
+
+.div-list-btn:hover{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.div-list{
+    list-style: none;
+}
+
+.hero-portfolio-list-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;    
+}
+
+.hero-portfolio-list-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.hero-portfolio-list{
+    list-style: none;
 }
