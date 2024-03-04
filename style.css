@@ -12,6 +12,11 @@
     color: #000000;
 }
 
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
 body{
     font-family: Roboto;
 }
@@ -22,10 +27,12 @@ body{
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
+    text-decoration: none;
 }
 
 .nav-list{
     list-style: none;
+
 }
 
 .contact-list-link{
@@ -34,6 +41,7 @@ body{
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #757575;
+    text-decoration: none;
 }
 
 .contact-list{
@@ -45,7 +53,9 @@ body{
 }
 
 .hero{
-    background-color: #2F303A
+    background-color: #2F303A;
+    padding-top: 200px;    
+    padding-bottom: 280px;
 }
 
 .hero-title{
@@ -54,6 +64,7 @@ body{
     line-height: 60px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+
 }
 
 .hero-btn{
@@ -64,6 +75,12 @@ body{
     color: #FFFFFF;
     background-color: #2196F3;
     border: none;
+    margin-top: 30px;
+}
+
+.features{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .features-list-title{
@@ -94,12 +111,19 @@ body{
     color: #212121;
 }
 
+.work-title{
+    padding-bottom: 50px;
+}
+
 .work-list{
     list-style: none;
+    padding-bottom: 94px;
 }
 
 .team{
     background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team-title{
@@ -107,7 +131,7 @@ body{
     font-weight: 700;
     line-height: 42px;
     letter-spacing: 0.03em;
-    color: #212121;   
+    color: #212121;  
 }
 
 .team-list-item{
@@ -132,6 +156,8 @@ body{
 }
 .footer{
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .company-logo-footer{
@@ -149,7 +175,8 @@ body{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;  
+    color: #FFFFFF; 
+    text-decoration: none; 
 }
 
 .address-list-link-mail{
@@ -159,6 +186,7 @@ body{
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF99;
+    text-decoration: none; 
 }
 
 .address-list-link-tel{
@@ -167,7 +195,8 @@ body{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #FFFFFF99;    
+    color: #FFFFFF99; 
+    text-decoration: none;    
 }
 
 .div-list-btn{
