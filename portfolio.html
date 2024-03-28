@@ -4,105 +4,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-
+    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer">
+    
+    <link rel="stylesheet" href="./reset.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-
+    
     <link rel="stylesheet" href="./style.css">
     
 </head>
 <body>
     <header class="header">
-        <a class="company-logo" href="./index.html">Web<span class="company-logo-header">Studio</span></a>
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-list-item"><a class="nav-list-link" href="./index.html">Студія</a></li>
-                <li class="nav-list-item"><a class="nav-list-link" href="./portfolio.html">Портфоліо</a></li>
-                <li class="nav-list-item"><a class="nav-list-link" href="style.css">Контакти</a></li>
+        <div class="container header-container">
+            <a class="company-logo" href="./index.html">Web<span class="company-logo-header">Studio</span></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a class="nav-list-link" href="./index.html">Studio</a></li>
+                    <li class="nav-list-item"><a class="nav-list-link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="nav-list-item"><a class="nav-list-link" href="style.css">Contacts</a></li>
+                </ul>
+            </nav>
+            
+            <ul class="contact-list">
+                <li class="contact-list-item"><a class="contact-list-link" href="maito:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="contact-list-item"><a class="contact-list-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-
-        <ul class="contact-list">
-            <li class="contact-list-item"><a class="contact-list-link" href="maito:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="contact-list-item"><a class="contact-list-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
-
+    
     <main>
         
-        <div class="div">
-            <ul class="div-list">
-                <li class="div-list-item"><button class="div-list-btn">Усі</button></li>
-                <li class="div-list-item"><button class="div-list-btn">Веб-сайти</button></li>
-                <li class="div-list-item"><button class="div-list-btn">Додатки</button></li>
-                <li class="div-list-item"><button class="div-list-btn">Дизайн</button></li>
-                <li class="div-list-item"><button class="div-list-btn">Маркетинг</button></li>
-            </ul>            
-        </div>
-        
-    
         <section class="hero-portfolio">
-          <ul class="hero-portfolio-list">
-            <li class="hero-portfolio-list-item">
-                <img class="hero-portfolio-list-image" src="./img/img(3).png" alt="">
-                <h2 class="hero-portfolio-list-title">Технокряк</h2>
-                <p class="hero-portfolio-list-text">Веб-сайт</p>
-            </li>
-            <li class="hero-portfolio-list-item">
-                <img class="hero-portfolio-list-image" src="./img/img(4).png" alt="">
-                <h2 class="hero-portfolio-list-title">Постер New Orlean vs Golden Star</h2>
-                <p class="hero-portfolio-list-text">Дизайн</p>
-            </li>
-            <li class="hero-portfolio-list-item">
-                <img class="hero-portfolio-list-image" src="./img/img(5).png" alt="">
-                <h2 class="hero-portfolio-list-title">Ресторан Seafood</h2>
-                <p class="hero-portfolio-list-text">Додаток</p>
-            </li>
-            <li class="hero-portfolio-list-item">
-                <img class="hero-portfolio-list-image" src="./img/img(6).png" alt="">
-                <h2 class="hero-portfolio-list-title">Проєкт Prime</h2>
-                <p class="hero-portfolio-list-text">Маркетинг</p>
-            </li>
-            <li class="hero-portfolio-list-item">
-                <img class="hero-portfolio-list-image" src="./img/img(7).png" alt="">
-                <h2 class="hero-portfolio-list-title">Проєкт Boxes</h2>
-                <p class="hero-portfolio-list-text">Додаток</p>
-            </li>
-            <li class="hero-portfolio-list-item">
-                <img class="hero-portfolio-list-image" src="./img/img(8).png" alt="">
-                <h2 class="hero-portfolio-list-title">Inspiration has no Borders</h2>
-                <p class="hero-portfolio-list-text">Веб-сайт</p>
-            </li>
-            <li class="hero-portfolio-list-item">
-                <img class="hero-portfolio-list-image" src="./img/img(9).png" alt="">
-                <h2 class="hero-portfolio-list-title">Видання Limited Edition</h2>
-                <p class="hero-portfolio-list-text">Дизайн</p>
-            </li>
-            <li class="hero-portfolio-list-item">
-                <img class="hero-portfolio-list-image" src="./img/img(10).png" alt="">
-                <h2 class="hero-portfolio-list-title">Проєкт LAB</h2>
-                <p class="hero-portfolio-list-text">Маркетинг</p>
-            </li>
-            <li class="hero-portfolio-list-item">
-                <img class="hero-portfolio-list-image" src="./img/img(11).png" alt="">
-                <h2 class="hero-portfolio-list-title">Growing Business</h2>
-                <p class="hero-portfolio-list-text">Додаток</p>
-            </li>
-          </ul>
+            
+            <div class="container">
+                <ul class="filter-list">
+                    <li class="filter-list-item"><button class="filter-list-btn">All</button></li>
+                    <li class="filter-list-item"><button class="filter-list-btn">Websites</button></li>
+                    <li class="filter-list-item"><button class="filter-list-btn">Application</button></li>
+                    <li class="filter-list-item"><button class="filter-list-btn">Design</button></li>
+                    <li class="filter-list-item"><button class="filter-list-btn">Marketing</button></li>
+                </ul>            
+                
+                
+                <ul class="hero-portfolio-list">
+                    <li class="hero-portfolio-list-item">
+                        <img class="hero-portfolio-list-image" src="./img/img(3).png" alt="">
+                        <h2 class="hero-portfolio-list-title">Technocrack</h2>
+                        <p class="hero-portfolio-list-text">Website</p>
+                    </li>
+                    <li class="hero-portfolio-list-item">
+                        <img class="hero-portfolio-list-image" src="./img/img(4).png" alt="">
+                        <h2 class="hero-portfolio-list-title">New Orleans vs Golden Star poster</h2>
+                        <p class="hero-portfolio-list-text">Design</p>
+                    </li>
+                    <li class="hero-portfolio-list-item">
+                        <img class="hero-portfolio-list-image" src="./img/img(5).png" alt="">
+                        <h2 class="hero-portfolio-list-title">Seafood restaurant</h2>
+                        <p class="hero-portfolio-list-text">Application</p>
+                    </li>
+                    <li class="hero-portfolio-list-item">
+                        <img class="hero-portfolio-list-image" src="./img/img(6).png" alt="">
+                        <h2 class="hero-portfolio-list-title">Project Prime</h2>
+                        <p class="hero-portfolio-list-text">Marketing</p>
+                    </li>
+                    <li class="hero-portfolio-list-item">
+                        <img class="hero-portfolio-list-image" src="./img/img(7).png" alt="">
+                        <h2 class="hero-portfolio-list-title">Boxes project</h2>
+                        <p class="hero-portfolio-list-text">Application</p>
+                    </li>
+                    <li class="hero-portfolio-list-item">
+                        <img class="hero-portfolio-list-image" src="./img/img(8).png" alt="">
+                        <h2 class="hero-portfolio-list-title">Inspiration has no Borders</h2>
+                        <p class="hero-portfolio-list-text">Website</p>
+                    </li>
+                    <li class="hero-portfolio-list-item">
+                        <img class="hero-portfolio-list-image" src="./img/img(9).png" alt="">
+                        <h2 class="hero-portfolio-list-title">Edition Limited Edition</h2>
+                        <p class="hero-portfolio-list-text">Design</p>
+                    </li>
+                    <li class="hero-portfolio-list-item">
+                        <img class="hero-portfolio-list-image" src="./img/img(10).png" alt="">
+                        <h2 class="hero-portfolio-list-title">LAB project</h2>
+                        <p class="hero-portfolio-list-text">Marketing</p>
+                    </li>
+                    <li class="hero-portfolio-list-item">
+                        <img class="hero-portfolio-list-image" src="./img/img(11).png" alt="">
+                        <h2 class="hero-portfolio-list-title">Growing Business</h2>
+                        <p class="hero-portfolio-list-text">Application</p>
+                    </li>
+                </ul>
+            </div>
         </section>
-
+        
     </main>
-
+    
     <footer class="footer">
-        <a class="company-logo" href="./index.html">Web<span class="company-logo-footer">Studio</span></a>
-        <address class="address">
-            <ul class="address-list">
-                <li class="address-list-item"><a class="address-list-link" href="">м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li class="address-list-item"><a class="address-list-link-mail" href="maito:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="address-list-item"><a class="address-list-link-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+        <div class="container">
+            <a class="company-logo" href="./index.html">Web<span class="company-logo-footer">Studio</span></a>
+            <address class="address">
+                <ul class="address-list">
+                    <li class="address-list-item"><a class="address-list-link" href="">Kyiv, 26 Lesi Ukrainky Ave</a></li>
+                    <li class="address-list-item"><a class="address-list-link-mail" href="maito:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="address-list-item"><a class="address-list-link-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 </html>
