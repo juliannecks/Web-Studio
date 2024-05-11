@@ -65,7 +65,8 @@ body{
 .hero{
     background-color: #2F303A;
     padding-top: 200px;    
-    padding-bottom: 280px;
+    padding-bottom: 200px;
+    background-image: url("./img/Img\(12\).png");    
 }
 
 .hero-title{
@@ -100,12 +101,45 @@ body{
     padding-bottom: 94px;
 }
 
+.features-list-item::before{
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-image: url("./img/Group1.png");
+    display: inline-block;
+}
+
+.features-list-item:nth-child(2)::before{
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-image: url("./img/Group2.png");
+    display: inline-block;
+}
+
+.features-list-item:nth-child(3)::before{
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-image: url("./img/Group3.2.png");
+    display: inline-block;
+}
+
+.features-list-item:nth-child(4)::before{
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-image: url("./img/Group4.png");
+    display: inline-block;
+}
+
 .features-list-title{
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-top: 30px;
 }
 
 .features-list{
